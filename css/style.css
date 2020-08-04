@@ -1,0 +1,120 @@
+
+  .carousel {
+  background-size: auto;
+  margin-top: 20px;
+}
+.carousel-item {
+  text-align: center;
+  min-height: 150px;
+}
+.jumbotron {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  margin-top: -40px;
+  background-size: cover;
+}
+
+.container.slide {
+  padding-top: 60px;
+  background-color: white;
+  opacity: 0.6;
+  height: 250px;
+  width: 400px;
+  margin-top: -400px;
+}
+.underline {
+  border-bottom: 2px solid orange;
+  padding-bottom: 3px;
+}
+.img-left {
+  float: left;
+  width: 30%;
+}
+.desc-right {
+  float: right;
+  width: 65%;
+}
+.img-right {
+  float: right;
+  width: 30%;
+}
+.desc-left {
+  float: left;
+  width: 70%;
+}
+.center {
+  text-align: center;
+}
+.names {
+  height: 200px;
+  margin-top: 20px;
+}
+
+.left {
+  width: 50%;
+  float: left;
+}
+.right {
+  width: 50%;
+  float: right;
+}
+.img-all {
+  height: 150px;
+  width: 150px;
+  box-shadow: -2px 2px 5px rgba(199, 213, 230, 0.8);
+  margin-bottom: 10px;
+  max-height: 150px;
+}
+.img-fluid {
+  width: 150px;
+  box-shadow: -2px 2px 8px lightgray;
+  margin-bottom: 10px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.img-thumbnail {
+  width: 150px;
+  min-height: 150px;
+  margin-bottom: 6px;
+  max-height: 150px;
+  max-width: 150px;
+  min-width: 150px;
+  margin-top: 20px;
+  height: 150px;
+}
+.card{
+  max-width: 150px;
+  min-width: 160px;
+  width: 160px;
+  padding-left: 4px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+.boxy {
+  box-shadow: 2px 2px 8px lightgray;
+  height: 150px;
+  max-height: 150px;
+  margin-left: -10px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .boxy {
+    box-shadow: 2px 2px 8px lightgray;
+    height: 125px;
+    width: 100px;
+    padding-top: 30px;
+    margin-left: -40px;
+  }
+  
+  
+}
+
+
+  .foot {
+    height: 170px;
+     width:100%;
+      background-color: black;
+      color:lightgray 
+  }
